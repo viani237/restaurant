@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --background-header: hsl(0, 0%, 100%);
+}
+
+.header {
+    display: flex;
+
+
+    background-color: var(--background-header);
+
+    position: sticky;
+    z-index: 999;
+
+    justify-content: space-evenly;
+    gap: 980px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    
+
+}
+
+.header .logo{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+button {
+    background-color: orange;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+}
+
+.main {
+    padding-top: 20%;
+    align-content: center;
+    background: url("pexels-quark-studio-3201922.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
+
+.main-note {
+    width: 700px;
+    padding: 45px;
+    box-sizing: border-box;
+    background-color: orange;
+    opacity: 0.75;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.main-note button {
+    background-color: white;
+    color: orange;
+    margin-top: 10px;
+
+}
+.main-note button:hover{
+    background-color: orange;
+    color: black;
+}
+
+.main-note h2 {
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.main-note h4 {
+    font-weight: lighter;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+    padding: 5px 0px;
+    margin: 15px 500px;
+}
+
+.nav-bar>li {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: large;
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav-bar a:hover {
+    color: orange;
+
+}
+.text{
+       margin: 80px 200px 2px;
+} 
+.text p{
+    padding: 4px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+.text .line
+{
+    width: 200px;
+    height: 2px;
+    border-radius: 9px;
+    background-color: orange;
+    margin: 0px 450px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 200px 80px;
+}
+
+.grid-items {
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 15px;
+    /* background-color: #784545; */
+    padding: 18px 50px 1px;
+    text-align: center;
+}
+
+.pricetag{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 200px 80px;
+}
